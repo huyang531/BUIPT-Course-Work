@@ -1,31 +1,41 @@
 # BUPT-Course-Work
- [中文](https://github.com/huyang531/BUPT-Course-Work/README.zh-CN.md)
+ [中文](https://github.com/huyang531/BUPT-Course-Work/blob/main/README.zh-CN.md)
 
  Some interesting course projects I did at BUPT (in reverse-chronological order). Credit also goes to my lovely friends who helped me along the way.
 
  ## About Me
  - [My Resume](https://hu-yang.netlify.app)
+
+## Flutter Development
+### CaCa Trip Planner
+The front-end of a free travel planning app.
+- See [GitHub Repo](https://github.com/Populus-Studio/free-travel-app)
+  
+## ROS
+### Robot Arm Simulation
+A simple robot arm simulation using ROS and its features.
+- See [GitHub Repo](https://github.com/huyang531/Ye-Pei-Da-Homework)
  ## Computer Networks
 ### Distance Vector Algorithm Simulation
  - Written in C++
  - Run on Ubuntu 18.04
- - [Project Directory](TODO)
+ - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/Computer%20Networks/1.%20Distance-Vector%20Simulation)
 ### Reliable UDP Transmission
  - Written in C++
  - Run on Ubuntu 18.04
-  - [Project Directory](TODO)
+  - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/Computer%20Networks/2.%20Reliable%20UDP%20Transmission)
  ## C#/Unity
 ### COVID-19 Simulation
 A 3D simulation of the spread of COVID-19 in a school canteen.
  - Render engine: Unity
- - [Project Directory](TODO)
+ - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/C%23)
 
  ## Parallel Computing
  ### Barnes Hut Simulation
  The n-body problem simulated using the Barnes-Hut Algorithm.
   - Algorithm part: C++
   - Simulation part: Python w/ matplotlib
-  - [Project Directory](TODO)
+  - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/Parallel%20Computing)
 
  ## JavaEE
  ### Taobao Lite
@@ -39,7 +49,7 @@ A university administration system clone.
 ## Compilers Techniques
 ### C Lexer
 C language lexer written using LEX.
- - [Project Directory](TODO)
+ - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/Compiler%20Techniques/C%20Lexer)
 
 ## Multimedia Technology
 ### Photoshop Lite
@@ -60,4 +70,4 @@ A GoBang game with a simple AI.
 ## Shell
 ### Finder
 A simple script to help you find files on Linux.
- - [Project Directory](TODO)
+ - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/Shell/Finder)
