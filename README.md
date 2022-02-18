@@ -3,6 +3,8 @@
 
  Some interesting course projects I did at BUPT (in reverse-chronological order). Credit also goes to my lovely friends who helped me along the way.
 
+ ## About Me
+ - [My Resume](https://hu-yang.netlify.app)
  ## Computer Networks
 ### Distance Vector Algorithm Simulation
  - Written in C++
