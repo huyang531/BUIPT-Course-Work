@@ -4,18 +4,13 @@
  Some interesting course projects I did at BUPT (in reverse-chronological order). Credit also goes to my lovely friends who helped me along the way.
 
  ## About Me
- - [My Resume](https://hu-yang.netlify.app)
+ - [My Resume](https://huyang.netlify.app)
 
 ## Flutter Development
 ### CaCa Trip Planner
 The front-end of a free travel planning app.
 - See [GitHub Repo](https://github.com/Populus-Studio/free-travel-app)
-  
-## ROS
-### Robot Arm Simulation
-A simple robot arm simulation using ROS and its features.
-- See [GitHub Repo](https://github.com/huyang531/Ye-Pei-Da-Homework)
- ## Computer Networks
+## Computer Networks
 ### Distance Vector Algorithm Simulation
  - Written in C++
  - Run on Ubuntu 18.04
@@ -24,6 +19,7 @@ A simple robot arm simulation using ROS and its features.
  - Written in C++
  - Run on Ubuntu 18.04
   - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/Computer%20Networks/2.%20Reliable%20UDP%20Transmission)
+
  ## C#/Unity
 ### COVID-19 Simulation
 A 3D simulation of the spread of COVID-19 in a school canteen.
@@ -45,6 +41,17 @@ A 3D simulation of the spread of COVID-19 in a school canteen.
 ### BUPT Admin
 A university administration system clone.
 - See [GitHub Repo](https://github.com/huyang531/BUPTAdmin)
+
+## Distributed Computing
+### Hadoop
+This is the final project for *Big Data Priciple and Technology* - a distributed Genetic Algorithm implemented using Hadoop MapReduce.
+- See [GitHub Repo](https://github.com/huyang531/SimpleGeneticAlgorithm.git)
+
+## JavaScript
+### 15-digit Problem
+Solving the 15-digit Problem using the A* algorithm (and its variants). Implemented using HTML + CSS + JavaScript.
+- See [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/JavaScript)
+
 
 ## Compilers Techniques
 ### C Lexer
@@ -71,3 +78,9 @@ A GoBang game with a simple AI.
 ### Finder
 A simple script to help you find files on Linux.
  - [Project Directory](https://github.com/huyang531/BUPT-Course-Work/tree/main/Shell/Finder)
+
+
+## ROS
+### Robot Arm Simulation
+A simple robot arm simulation using ROS and its features.
+- See [GitHub Repo](https://github.com/huyang531/Ye-Pei-Da-Homework)

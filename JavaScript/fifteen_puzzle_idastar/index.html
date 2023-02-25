@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <title>15-数码问题</title>
+</head>
+
+<body onload="reset(numbers)">
+    <h1>15-数码问题</h1>
+
+    <!-- Game control -->
+    <div>
+        <button id="resetBtn" onclick="reset(numbers)">还原</button>
+        <button id="setupBtn" onclick="setUp()">随机打乱</button>
+        <button id="testBtn" onclick="reset(aPuzzle)">载入测试图形</button>
+        <input type="number" id="numInput" value="45" min="0" max="999">
+        <button id="customSetUpBtn" onclick="customSetUp()">自定义步数打乱</button>
+        <button id="solveBtn" onclick="start()">IDA*求解</button>
+        <h2 id="depthLimit"></h2>
+    </div>
+
+    <!-- Game board -->
+    <div id="container">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- Insturctions -->
+    <h2>说明</h2>
+    <h3>1. 方块可拖动、点击【还原】恢复成初始状态、点击【IDA*求解】进行求解。</h3>
+    <h3>2. 建议手动移动方块或输入步数并点击【自定义步数打乱】自动打乱45步以内进行求解。</h3>
+    <h3>3. 点击【载入测试图形】加载一个在57步有解的图形。</h3>
+    <h3>4. 受限于问题规模及 JavaScript 性能，不推荐使用【随机打乱】功能。</h3>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>

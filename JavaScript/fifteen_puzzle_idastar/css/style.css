@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: darkslategray;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+#container {
+    width: 640px;
+    height: 640px;
+    background-color: whitesmoke;
+    margin: 10px auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Audiowide';
+    color: whitesmoke;
+}
+
+ul li {
+    background-color: cadetblue;
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightgrey;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.empty {
+    background-color: lightgrey;
+    border: 2px solid lightgrey;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    color: aliceblue;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    /* padding-left: 18%; */
+}
+
+button {
+    padding: 10px;
+    border: 0px;
+    margin: 10px;
+    background: cadetblue;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:disabled {
+    background: lightgrey;
+}
+
+input {
+    padding: 10px;
+    margin-left: 10px;
+    height: auto;
+    width: 65px;
+}
